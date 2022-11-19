@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="alertForm" onreset="">
+        <input id='alertInput'
+               type="text"
+               autocomplete="off"/>
+
+        <input type="submit"
+                value="Submit">
+    </form>
+    <br>
+    <br>
+    <form id="sandwichForm">
+        <h2>Sandwich Builder</h2>
+
+        <div>
+            <label>Turkey</label>
+          <input class="ingredients" id="turkey" type="checkbox">
+        </div>
+
+        <div>
+            <label>Ham</label>
+          <input class="ingredients" id="ham" type="checkbox">
+        </div>
+
+        <div>
+            <label>Chicken</label>
+          <input class="ingredients" id="chicken" type="checkbox">
+        </div>
+
+        <div>
+            <label>Mayo</label>
+          <input class="ingredients" id="mayo" type="checkbox">
+        </div>
+
+        <div>
+            <label>Mustard</label>
+          <input class="ingredients" id="mustard" type="checkbox">
+        </div>
+
+        <div>
+            <label>Aioli</label>
+          <input class="ingredients" id="aioli" type="checkbox">
+        </div>
+
+        <div>
+            <label>Lettuce</label>
+          <input class="ingredients" id="lettuce" type="checkbox">
+        </div>
+
+        <div>
+            <label>Tomatoes</label>
+          <input class="ingredients" id="tomatoes" type="checkbox">
+        </div>
+
+        <div>
+            <label>Onion</label>
+          <input class="ingredients" id="onion" type="checkbox">
+        </div>
+
+        <div>
+            <label>Pickles</label>
+          <input class="ingredients" id="pickles" type="checkbox">
+        </div>
+
+        <div>
+            <label>White Bread</label>
+          <input class="ingredients" id="whitebread" type="checkbox">
+        </div>
+
+        <div>
+            <label>Wheat Bread</label>
+          <input class="ingredients" id="wheatbread" type="checkbox">
+        </div>
+
+        <input type="submit">
+
+    </form>
+
+    <br><br>
+
+    <form id="apptForm">
+      <h2>Haircut Appointment Scheduler</h2>
+
+      <div>
+        <label>Date</label>
+         <input id="dateInput" type="date">
+      </div>
+      <br>
+      <div>
+        <label>Enter Stylist</label>
+        <input id="requestStylist" type="text">
+      </div>
+      <br>
+      <div class="hairLength">
+        <label >Long Hair</label>
+        <input id="longHair" 
+        type="radio" name="length" 
+        checked= 'true'>
+      </div>
+      <br>
+      <div class="hairLength">
+        <label >Short Hair</label>
+        <input id="shortHair" 
+        type="radio" name="length" 
+        >
+      </div>
+      <br>
+      <input type="reset" 
+             value="Reset">
+      <input type="submit"
+             value="Submit">
+      <br><br>
+
+    </form>
+    <br>
+    <br>
+
+    
+    <form id="createAccountForm">
+      <h2>Create Account</h2>
+
+    <br>  
+
+    <div>
+    <label>Enter your email:</label>
+    <input id="email" type="email" name="email">
+    </div>
+
+    <br>
+
+    <div>
+    <label>Enter your username:</label>
+    <input id="userName" type="text">
+    </div>
+
+    <br>
+
+    <div>
+    <label for="pwd">Enter a Password:</label>
+    <input id="new-password" type="password">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="">Confirm Password:</label>
+      <input id="confirmPassword" type="password">
+      </div>
+
+    <br>
+
+    <input type="submit"
+           value="Submit">
+
+         
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
